@@ -3,7 +3,7 @@ class Tools{
 	//funcion conectar con la base de datos
     function conectarDB()
 	{
-        $conexion = mysqli_connect("127.0.0.1", "root", "","clinica");//conexion con la base de datos p3_ulamovil
+        $conexion = mysqli_connect("127.0.0.1", "lrod", "31415","klinica");//conexion con la base de datos p3_ulamovil
         if($conexion){//condicion para la conexion
         }else{
                echo '<br>ERROR EN LA CONEXION<br>';//si no coinciden muestra este mensaje

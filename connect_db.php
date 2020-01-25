@@ -2,12 +2,12 @@
 //require('../../electiva/inc/config.php');
 class conexionDB{
 function conectarDB(){
-		$conexion= mysqli_connect("localhost","root", "", "clinica");
+		$conexion= mysqli_connect("localhost","lrod", "31415", "klinica");
 		if(!$conexion)
 			echo "ERROR, Verifique los datos de conexion";
 		mysqli_query ($conexion, "SET NAMES 'utf8'");
 		mysqli_set_charset ($conexion,"utf8");
-		return $conexion;		
+		return $conexion;
 }
 function desconectarDB ($conexion)
 {
