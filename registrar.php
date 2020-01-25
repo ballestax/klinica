@@ -21,7 +21,6 @@ if(isset($_POST['aceptar']))
 
 	$sql="INSERT INTO date_person VALUES ($cedula,$tipo_doc,'$nombre','$nombre2','$apellido','$apellido2','$foto','$fecha_nac',$sangre,$genero,$rh,$estado_c,$ciudad_nac,$raza,$eps,$estrato)";
 
-	echo "$sql";// XXX:
 	ejecutar($sql);
 
 	}
